@@ -1,0 +1,127 @@
+    <!-- import slick slider -->
+    <div id="slider">
+      <div class="mine-slider">
+        <div class="slider-item">
+          <img
+            src="https://shopdunk.com/images/uploaded/Home%20banner%20T7%202023/banner%20watch%20t7_Banner%20PC7.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slider-item">
+          <img
+            src="https://shopdunk.com/images/uploaded/Trang%20ch%E1%BB%A7/2.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="slider-item">
+          <img
+            src="https://shopdunk.com/images/uploaded/banner/Banner%20Th%C3%A1ng%2005%202023/banner%20mac2-19.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!--item-product-->
+    <div id="product-list" class="container">
+    
+        <div class="product-item">
+          <a href="item-1.html" style="text-decoration: none; color: black;">
+          <img
+            class="product-img"
+            src="https://down-vn.img.susercontent.com/file/bc1c71b634719b9814eaa1ef90d01c16"
+            alt=""
+          />
+          <h4 class="product-name">super smart cyan among us sú sú</h4>
+          <span class="product-price">1.200₫</span>
+          <span
+            class="product-original-price"
+            style="text-decoration: line-through"
+            >120.000₫</span
+          >
+          <div class="sale">sale 99%</div>
+          <p>out of stock</p>
+        </div>
+      </a>
+      <div class="product-item">
+        <a href="/item-2.html" style="text-decoration: none; color: black;">
+        <img
+          class="product-img"
+          src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_8__1_5.png"
+          alt=""
+        />
+        </a>
+        <h4 class="product-name">
+          Smart Tivi Khung Tranh The Frame 4K Samsung LTV 50 inch 50LS03BA
+        </h4>
+        <span class="product-price">14.450.000₫</span>
+        <span
+          class="product-original-price"
+          style="text-decoration: line-through"
+          >28.900.000₫</span
+        >
+        <div class="sale">sale 50%</div>
+      </div>
+      <div class="product-item">
+        <img
+          class="product-img"
+          src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_8__1_5.png"
+          alt=""
+        />
+        <h4 class="product-name">
+          Smart Tivi Khung Tranh The Frame 4K Samsung LTV 50 inch 50LS03BA
+        </h4>
+        <span class="product-price">12.490.000₫</span>
+        <span class="product-original-price">28.900.000₫</span>
+      </div>
+      <div class="product-item">
+        <img
+          class="product-img"
+          src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_8__1_5.png"
+          alt=""
+        />
+        <h4 class="product-name">
+          Smart Tivi Khung Tranh The Frame 4K Samsung LTV 50 inch 50LS03BA
+        </h4>
+        <span class="product-price">12.490.000₫</span>
+        <span class="product-original-price">28.900.000₫</span>
+      </div>
+      <div class="product-item">
+        <img
+          class="product-img"
+          src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_i_xu_ng_8__1_5.png"
+          alt=""
+        />
+        <h4 class="product-name">
+          Smart Tivi Khung Tranh The Frame 4K Samsung LTV 50 inch 50LS03BA
+        </h4>
+        <span class="product-price">12.490.000₫</span>
+        <span class="product-original-price">28.900.000₫</span>
+      </div>
+    </div>
+
+    <!-- import slick slider -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".mine-slider").slick({
+          arrows: false,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          pauseOnFocus: false,
+          touchMove: false,
+        });
+      });
